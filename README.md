@@ -16,6 +16,7 @@ Within the static footer, you'll find links to personal social media sites (all 
 # Links
 
 <a href="https://lhafoka13.github.io/Responsive-Portfolio/">Responsive Portfolio</a>
+<a href="https://github.com/LHafoka13/Responsive-Portfolio">GitHub Repo</a>
 
 
 
