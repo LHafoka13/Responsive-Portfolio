@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lily'okalani Hafoka's Portfolio</title>
+
+    <!-- This is the link to boostrap css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- This is the link to social media icons from W3Schools -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- This is the link to the custom css stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- This is the static navigation bar which links to other pages in the portfolio -->
+    <nav class="nav nav-pills nav-fill">
+      <a class="nav-item nav-link" href="./index.html">About Me</a>
+      <a class="nav-item nav-link active" href="./portfolio.html">Portfolio</a>
+      <a class="nav-item nav-link" href="./contact.html">Contact</a>
+    </nav>
+    <!-- These are the cards for displaying projects completed within Coding Bootcamp -->
+    <section class="container" id="portfolio-section">
+      <!-- Position of card using grid -->
+      <div class="row">
+        <div class="col-md-4">
+          <!-- Card styling -->
+          <div class="card">
+            <!-- Card image -->
+            <img
+              src="./Me/digital-marketing-meeting.jpg"
+              class="card-img-top"
+              alt="Horiseon webpage"
+            />
+            <div class="card-body">
+              <!-- Card title and explanation -->
+              <h5 class="card-title">Code Refractor</h5>
+              <p class="card-text">
+                Fixed bugs on existing webpage. Used semantic HTML elements to
+                enhance and consolidate developer readibility.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Position of card using grid -->
+        <div class="col-md-5">
+          <!-- Card styling -->
+          <div class="card">
+            <!-- Card image -->
+            <img src="./Me/Lily.jpg" class="card-img-top" alt="photo of me" />
+            <div class="card-body">
+              <!-- Card title and explanation -->
+              <h5 class="card-title">Portfolio</h5>
+              <p class="card-text">
+                Developed personal wepage portfolio from scratch using Boostrap
+                CSS as a foundation, then customizing with a custom CSS page.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- This is a static footer with links to outside social media websites -->
+    <footer class="container">
+      <div class="navbar fixed-bottom bg">
+        <div class="col-md-6">
+          <a class="navbar-brand" href="#">Follow Me:</a>
+          <!-- Icon and link to instagram -->
+          <a
+            href="https://www.instagram.com/ic__ace/"
+            class="fa fa-instagram"
+            target="_blank"
+          ></a>
+          <!-- Icon and link to linkedin -->
+          <a
+            href="https://www.linkedin.com/in/lilyokalani-hafoka/"
+            class="fa fa-linkedin"
+            target="_blank"
+          ></a>
+          <!-- Icon and link to github -->
+          <a
+            href="https://github.com/LHafoka13"
+            class="fa fa-github"
+            target="_blank"
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

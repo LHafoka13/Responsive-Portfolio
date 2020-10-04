@@ -1,0 +1,94 @@
+/* This makes the background color throughout the pages the same */
+body {
+  background-color: #2e1114;
+}
+
+/* Customizing the nav bar */
+.nav-item,
+.bg,
+.navbar-brand {
+  color: burlywood;
+  background-color: #83677b;
+}
+
+/* Customizing the fill of the nav bar buttons */
+
+.nav-pills,
+.nav-fill,
+.nav-item:hover,
+nav link :active {
+  background-color: burlywood;
+  color: white;
+}
+
+/* Customizing inside form labels */
+
+.label {
+  color: burlywood;
+}
+
+/* Customizing all h1 properties */
+
+h1 {
+  color: burlywood;
+  padding-top: 30px;
+}
+
+/* Customizing the card titles on the Portfolio page */
+
+h5,
+card-title {
+  color: #83677b;
+}
+
+/* Making all regular text the same color */
+
+p {
+  color: white;
+}
+
+/* Rounding self image on the about me page */
+
+img {
+  border-radius: 15px;
+}
+
+/* Making the images in the card all the same size */
+.card-img-top {
+  width: 100%;
+  height: 24vw;
+  object-fit: cover;
+}
+
+/* Customizing the form fields  */
+input[type="text"],
+input[type="email"] {
+  border: 4px solid burlywood;
+  border-radius: 4px;
+}
+
+label {
+  color: #83677b;
+}
+
+/* customizing the social media icons to match page color scheme */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+  color: #83677b;
+  background-color: burlywood;
+}
+
+/* adding a border between nav bar and cards in portfolio */
+
+#portfolio-section {
+  margin-top: 20px;
+}
+
+/* customizing card body  */
+
+.card-body {
+  background-color: burlywood;
+}
