@@ -20,5 +20,6 @@ Within the static footer, you'll find links to personal social media sites (all 
 <ul>
   <li>Boostrap</li>
   <li>Cloudfare</li>
+  <li>Google Fonts</li>
 </ul>
 
