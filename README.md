@@ -6,13 +6,6 @@ The colors of the page were decided based on the photo I used on the About Me pa
 
 Within the static footer, you'll find links to personal social media sites (all pages are currently under construction). Each icon will open a new tab that links to that specific site to be more user friendly. 
 
-# Screenshots
-![AboutMe](https://user-images.githubusercontent.com/68487859/95011836-e3f97b00-05f0-11eb-9562-97d80bbeeab9.png)
-
-![Contact](https://user-images.githubusercontent.com/68487859/95021546-cfd46e80-062e-11eb-9327-890560890235.png)
-
-![Portfolio](https://user-images.githubusercontent.com/68487859/95011850-fc699580-05f0-11eb-974b-1d659473d028.png)
-
 # Links
 
 <ul>
