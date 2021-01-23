@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lily'okalani Hafoka's About Me Page</title>
+    <title>Lily'okalani Hafoka</title>
 
     <!-- This is the link to boostrap css -->
     <link
@@ -19,72 +19,26 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <!--This is the link for Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- These are links to separate files which user is able to navigate to  -->
     <link rel="stylesheet" href="styles.css" />
-    <link rel="Contact" href="contact.html" />
-    <link rel="Portfolio" href="portfolio.html" />
   </head>
 
   <body>
-    <!--This is the navigation bar at the top which links to other pages in the portfolio-->
-    <nav class="nav nav-pills nav-fill" id="navbar">
-      <a class="nav-item nav-link active" href="./index.html">About Me</a>
-      <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-      <a class="nav-item nav-link" href="./contact.html">Contact</a>
+    <nav>
+      <a class="navigation" href="index.html" role="button">Home</a>
+      <a class="navigation" href="about.html" role="button">About</a>
+      <a class="navigation" href="./Main/assets/resume/HafokaL_Resume2020.pdf" target="_blank" role="button">Resume</a>
+      <a class="navigation" href="portfolio.html" role="button">Portfolio</a>
+      <a class="navigation" href="social.html" role="button">Social Media</a>
+      <a class="navigation" href="contact.html" role="button">Contact</a>
     </nav>
-
-    <!--This is the About Me main content of the page-->
-    <section class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Hi, I'm Lily'okalani!</h1>
-        </div>
-      </div>
-      <!-- photo position using grid -->
-      <div class="row">
-        <div class="col-md-4">
-          <!-- photo of me -->
-          <img src="Me/Lily.jpg" height="300px" alt="photo of me" />
-        </div>
-        <!-- description position using grid -->
-        <div class="col-md-8">
-          <h3>
-           I'm a coding bootcamp student at the University of Denver, developing my skills to become a full-stack Web Developer. 
-           
-           <br><br>Feel free to browse my Portfolio to see projects I have completed so far! 
-          </h3>
-        </div>
-      </div>
-    </section>
-
-    <!-- This is a static footer with links to personal social media websites -->
-    <footer class="container">
-      <div class="navbar fixed-bottom bg">
-        <div class="col-md-6">
-          <a class="navbar-brand">Follow Me:</a>
-          <!-- Icon and link to instagram -->
-          <a
-            href="https://www.instagram.com/ic__ace/"
-            class="fa fa-instagram"
-            target="_blank"
-          ></a>
-          <!-- Icon and link to linkedin -->
-          <a
-            href="https://www.linkedin.com/in/lilyokalani-hafoka/"
-            class="fa fa-linkedin"
-            target="_blank"
-          ></a>
-          <!-- Icon and link to Github -->
-          <a
-            href="./Main/assets/resume/HafokaL_Resume2020.pdf"
-            class="fa fa-file"
-            target="_blank"
-          ></a>
-            <a href="https://github.com/LHafoka13" class="fa fa-github" target="_blank"></a>
-        </div>
-      </div>
-    </footer>
+    <article class="container">
+      <img src="./Me/Lily.jpg" alt="photo of me" id="photo">
+      <h1>Lily'okalani Hafoka</h1>
+      <h2>Full-Stack Web Developer</h2>
+    </article>
+    
   </body>
 </html>
