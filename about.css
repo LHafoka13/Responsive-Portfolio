@@ -2,12 +2,9 @@ body {
     background-color: #000102;
 }
 
-/* placement of nav elements */
-nav {
-  margin-top: 20px;
-  margin-left: 800px;
-  font-family: 'Red Hat Display', sans-serif;
-  font-size: 20px;
+
+.wrapper {
+    width: 100%;
 }
 
 /* placement of links */
@@ -17,17 +14,13 @@ nav {
 
 }
 
-.image {
-    float: left;
-    width: 40%;
-}
 
 #photo {
-  width: 400px;
+  width: 100%;
   box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0;
   display: block;
   margin-top: 120px;
-  margin-left: 170px;
+  margin-right: 170px;
 }
 
 .description {
@@ -52,4 +45,86 @@ nav {
 
 .line {
     color: #7C7660;
+    background-color: #7C7660;
+}
+
+p {
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#resume {
+    padding: 5px;
+    background-color: #7C7660;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#resume:hover {
+    background-color: white;
+    color: #7C7660;
+}
+
+/* styling for tablet view */
+@media only screen and (min-width: 768px) {
+
+  .wrapper {
+  width: 100%;
+    }
+}
+
+
+/* styling for desktop view */
+@media only screen and (min-width: 1000px) {
+
+.wrapper {
+  width: 100%;
+}
+
+nav {
+  margin-top: 20px;
+  margin-left: 800px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 20px;
+} 
+
+
+.image {
+    float: left;
+    width: 30%;
+} 
+
+.description {
+    float: left;
+    margin-top: 90px;
+    width: 50%;
+    padding: 20px;
+}
+  
+#header {
+    color: #7C7660;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+#aboutme {
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.line {
+    color: #7C7660;
+    background-color: #7C7660;
+}
+
+.resume {
+    float: left;
+    margin-top: 30px;
+    width: 50%;
+    padding: 20px;
+}
 }
