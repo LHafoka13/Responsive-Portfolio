@@ -1,0 +1,55 @@
+body {
+    background-color: #000102;
+}
+
+/* placement of nav elements */
+nav {
+  margin-top: 20px;
+  margin-left: 800px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 20px;
+}
+
+/* placement of links */
+.navigation {
+  margin-right: 10px;
+  color: #7C7660;
+
+}
+
+.image {
+    float: left;
+    width: 40%;
+}
+
+#photo {
+  width: 400px;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0;
+  display: block;
+  margin-top: 120px;
+  margin-left: 170px;
+}
+
+.description {
+    float: left;
+    margin-top: 90px;
+    position: relative;
+}
+
+#header {
+    color: #7C7660;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+#aboutme {
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.line {
+    color: #7C7660;
+}

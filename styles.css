@@ -7,13 +7,16 @@ body {
   background-size: cover;
 }
 
-/* placement of nav elements */
-nav {
-  margin-top: 20px;
-  margin-left: 800px;
-  font-family: 'Red Hat Display', sans-serif;
-  font-size: 20px;
+/* wrapping content */
+.wrapper {
+  width: 100%;
 }
+
+/* for the page links */
+.page-links {
+  width: 100%;
+}
+
 
 /* placement of links */
 .navigation {
@@ -22,6 +25,7 @@ nav {
 
 }
 
+/* customizing hover state of links */
 a:hover {
   color: white;
 }
@@ -36,6 +40,8 @@ a:hover {
   margin-right: auto;
 }
 
+/* styling name */
+
 h1 {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 60px;
@@ -43,12 +49,39 @@ h1 {
   color: #ebd481;
   text-align: center;
   margin-top: 10px;
+  margin: 0;
 }
+
+/* styling title */
 
 h2 {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 50px;
   color: white;
   text-align: center;
-  margin-top: 10px;
+  margin: 0;
+}
+
+/* styling for tablet view */
+@media only screen and (min-width: 768px) {
+
+  .wrapper {
+  width: 100%;
+}
+}
+
+/* styling for desktop view */
+@media only screen and (min-width: 1000px) {
+
+.wrapper {
+  width: 100%;
+}
+
+nav {
+  margin-top: 20px;
+  margin-left: 800px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 20px;
+} 
+  
 }
