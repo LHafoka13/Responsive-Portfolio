@@ -22,7 +22,7 @@ body {
 .navigation {
   margin-right: 10px;
   color: #7C7660;
-
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 /* customizing hover state of links */

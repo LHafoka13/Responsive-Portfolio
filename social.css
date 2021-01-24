@@ -1,0 +1,127 @@
+/* background for the webpage */
+body {
+    background-color: #000102;
+}
+
+/* wrapper element */
+.wrapper {
+    width: 100%;
+}
+
+/* for the page links */
+.page-links {
+  width: 100%;
+}
+
+/* placement of links */
+.navigation {
+  margin-right: 10px;
+  color: #7C7660;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  color: #7C7660;
+  font-size: 20px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+h1 {
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 200px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #7C7660;
+  color: white;
+}
+
+.fa-instagram {
+  background: #7C7660;
+  color: white;
+}
+
+/* styling for tablet view */
+@media only screen and (min-width: 768px) {
+
+  .wrapper {
+  width: 100%;
+}
+
+.fa {
+  padding: 30px;
+  font-size: 300px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px;
+  border-radius: 50%;
+}
+
+}
+
+/* styling for desktop view */
+@media only screen and (min-width: 1000px) {
+
+  .wrapper {
+  width: 100%;
+}
+
+nav {
+  margin-top: 20px;
+  margin-left: 800px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 20px;
+} 
+
+h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  color: #7C7660;
+  font-size: 20px;
+  padding-top: 100px;
+  margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.fa {
+  padding: 30px;
+  font-size: 300px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  margin: 180px 140px;
+  border-radius: 50%;
+}
+
+.line {
+    width: 400px;
+}
+
+}
+

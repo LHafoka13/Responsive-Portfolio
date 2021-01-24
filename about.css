@@ -1,20 +1,26 @@
+/* background for the webpage */
 body {
     background-color: #000102;
 }
 
-
+/* wrapper element */
 .wrapper {
     width: 100%;
+}
+
+/* for the page links */
+.page-links {
+  width: 100%;
 }
 
 /* placement of links */
 .navigation {
   margin-right: 10px;
   color: #7C7660;
-
+  font-family: 'Red Hat Display', sans-serif;
 }
 
-
+/* styling photo */
 #photo {
   width: 100%;
   box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0;
@@ -23,12 +29,14 @@ body {
   margin-right: 170px;
 }
 
+/* styling description content */
 .description {
     float: left;
     margin-top: 90px;
     position: relative;
 }
 
+/* styling header */
 #header {
     color: #7C7660;
     font-family: 'Red Hat Display', sans-serif;
@@ -36,6 +44,7 @@ body {
     margin: 0;
 }
 
+/* styling about me line */
 #aboutme {
     color: white;
     font-family: 'Red Hat Display', sans-serif;
@@ -43,16 +52,19 @@ body {
     margin: 0;
 }
 
+/* styling line break */
 .line {
     color: #7C7660;
     background-color: #7C7660;
 }
 
+/* styling all p elements */
 p {
     color: white;
     font-family: 'Red Hat Display', sans-serif;
 }
 
+/* styling resume button*/
 #resume {
     padding: 5px;
     background-color: #7C7660;
@@ -61,6 +73,7 @@ p {
     font-family: 'Red Hat Display', sans-serif;
 }
 
+/* styling resume button on hover */
 #resume:hover {
     background-color: white;
     color: #7C7660;
