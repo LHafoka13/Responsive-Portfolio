@@ -37,8 +37,8 @@ h1 {
 
 .fa {
   padding: 20px;
-  font-size: 200px;
-  width: 200px;
+  font-size: 100px;
+  width: 100px;
   text-align: center;
   text-decoration: none;
   margin: 50px 20px;
@@ -47,6 +47,11 @@ h1 {
 
 .fa:hover {
     opacity: 0.7;
+}
+
+.fa-github {
+  background: #7C7660;
+  color: white;
 }
 
 .fa-linkedin {
@@ -68,8 +73,8 @@ h1 {
 
 .fa {
   padding: 30px;
-  font-size: 300px;
-  width: 300px;
+  font-size: 140px;
+  width: 140px;
   text-align: center;
   text-decoration: none;
   margin: 50px 20px;
@@ -111,11 +116,11 @@ h1 {
 
 .fa {
   padding: 30px;
-  font-size: 300px;
-  width: 300px;
+  font-size: 200px;
+  width: 200px;
   text-align: center;
   text-decoration: none;
-  margin: 180px 140px;
+  margin: 100px 80px;
   border-radius: 50%;
 }
 

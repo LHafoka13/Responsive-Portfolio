@@ -3,116 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lily'okalani Hafoka's Portfolio</title>
+    <title>Portfolio</title>
 
-    <!-- This is the link to boostrap css -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <!-- This is the link to social media icons from W3Schools -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
     <!--This is the link for Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap" rel="stylesheet">
+
     <!-- This is the link to the custom css stylesheet -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+
   </head>
-
   <body>
-    <!-- This is the static navigation bar which links to other pages in the portfolio -->
-    <nav class="nav nav-pills nav-fill">
-      <a class="nav-item nav-link" href="./index.html">About Me</a>
-      <a class="nav-item nav-link active" href="./portfolio.html">Portfolio</a>
-      <a class="nav-item nav-link" href="./contact.html">Contact</a>
-    </nav>
-    <!-- These are the cards for displaying projects completed within Coding Bootcamp -->
-    <section class="container" id="portfolio-section">
-      <!-- Position of card using grid -->
-      <div class="row">
-        <div class="col-md-4">
-          <!-- Card styling -->
-          <div class="card">
-            <!-- Card image -->
-            <img
-              src="./Main/assets/imgs/JavaQuiz.png"
-              class="card-img-top"
-              alt="Hot-Girl-Quiz-preview"
-            />
-            <div class="card-body">
-              <!-- Card title and explanation -->
-              <h5 class="card-title">Hot Girl Quiz</h5>
-              <p class="card-text">
-                <a href="https://lhafoka13.github.io/Hot-Girl-Quiz/" target="_blank">Test Me!</a> <br><br>
-                <a href="https://github.com/LHafoka13/Hot-Girl-Quiz" target="_blank">GitHub Repo</a> 
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Position of card using grid -->
-        <div class="col-md-4">
-          <!-- Card styling -->
-          <div class="card">
-            <!-- Card image -->
-            <img src="./Main/assets/imgs/Weather.png" class="card-img-top" alt="weather-app" />
-            <div class="card-body">
-              <!-- Card title and explanation -->
-              <h5 class="card-title">Weather Dashboard</h5>
-              <p class="card-text">
-                <a href="https://lhafoka13.github.io/Weather-Dashboard/" target="_blank">Test Me!</a> <br><br>
-                <a href="https://github.com/LHafoka13/Weather-Dashboard" target="_blank">GitHub Repo</a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <!-- Card styling -->
-          <div class="card">
-            <!-- Card image -->
-            <img src="./Main/assets/imgs/plants.png" class="card-img-top" alt="weather-app" />
-            <div class="card-body">
-              <!-- Card title and explanation -->
-              <h5 class="card-title">Get In My Plants</h5>
-              <p class="card-text">
-                <a href="https://lhafoka13.github.io/Project-1/" target="_blank">Test Me!</a> <br><br>
-                <a href="https://github.com/LHafoka13/Project-1" target="_blank">GitHub Repo</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- This is a static footer with links to outside social media websites -->
-    <footer class="container">
-      <div class="navbar fixed-bottom bg">
-        <div class="col-md-6">
-          <a class="navbar-brand">Follow Me:</a>
-          <!-- Icon and link to instagram -->
-          <a
-            href="https://www.instagram.com/ic__ace/"
-            class="fa fa-instagram"
-            target="_blank"
-          ></a>
-          <!-- Icon and link to linkedin -->
-          <a
-            href="https://www.linkedin.com/in/lilyokalani-hafoka/"
-            class="fa fa-linkedin"
-            target="_blank"
-          ></a>
-          <a href="./Main/assets/resume/HafokaL_Resume2020.pdf" class="fa fa-file" target="_blank"></a>
-          <!-- Icon and link to github -->
-          <a
-            href="https://github.com/LHafoka13"
-            class="fa fa-github"
-            target="_blank"
-          ></a>
-        </div>
-      </div>
-    </footer>
+    <div class="wrapper">
+        <nav class="page-links">
+          <a class="navigation" href="index.html" role="button">Home</a>
+          <a class="navigation" href="about.html" role="button">About</a>
+          <a class="navigation" href="portfolio.html" role="button">Portfolio</a>
+          <a class="navigation" href="social.html" role="button">Social Media</a>
+          <a class="navigation" href="contact.html" role="button">Contact</a>
+        </nav>
+    </div>
   </body>
 </html>

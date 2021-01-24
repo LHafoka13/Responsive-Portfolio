@@ -1,0 +1,22 @@
+/* styling the body */
+body {
+    background-color: #000102;
+}
+
+/* wrapper element */
+.wrapper {
+    width: 100%;
+}
+
+/* for the page links */
+.page-links {
+  width: 100%;
+}
+
+/* placement of links */
+.navigation {
+  margin-right: 10px;
+  color: #7C7660;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
