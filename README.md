@@ -6,31 +6,31 @@ I did not use any framework for styling. It is also mobile responsive. Enoy!
 
 # Pages 
 
-<h1>Home Page</h1>
+<h2>Home Page</h2>
 
 ![homePage](https://user-images.githubusercontent.com/68487859/105742228-769f8c00-5ef8-11eb-9067-9715caa40b8c.png)
 
 The Home page is very simple. It has static links to all the other pages. 
 
-<h1>About Page</h1>
+<h2>About Page</h2>
 
 ![aboutPage](https://user-images.githubusercontent.com/68487859/105742245-7b644000-5ef8-11eb-87ef-f0da8b605798.png)
 
 The About page gives my background story on how I got into the field. It also has a button where you can download my resume.
 
-<h1>Portfolio</h1> 
+<h2>Portfolio</h2> 
 
 ![portfolioPage](https://user-images.githubusercontent.com/68487859/105742242-7acba980-5ef8-11eb-9e3d-052a5b45cda0.png)
 
 The Portfolio page shows 2 homework apps and 2 projects that I've created thus far in the bootcamp. It has links to the repos for each app, and the live links to the app if you want to test it. 
 
-<h1>Social Media</h1>
+<h2>Social Media</h2>
 
 ![socialMediaPage](https://user-images.githubusercontent.com/68487859/105742244-7b644000-5ef8-11eb-8691-42b0d8a3694a.png)
 
 The Social Media page just has styled icon links to my big three social media pages. 
 
-<h1>Contact</h1>
+<h2>Contact</h2>
 
 ![contactPage](https://user-images.githubusercontent.com/68487859/105742248-7bfcd680-5ef8-11eb-86ad-4adc98d01242.png)
 
