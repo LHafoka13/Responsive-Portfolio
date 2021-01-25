@@ -1,10 +1,8 @@
 # Responsive-Portfolio
 
-This personal portfolio was created to showcase the coding material I'm learning throughout the Coding Bootcamp at the University of Denver. Within this page you will notice that it navigates to different pages on the site. It uses static nav bar elements within the header and footer that possess a boostrap css foundation. I then took those templates and styled them to match the color scheme throughout the page. 
+This personal portfolio was created to showcase the coding material I'm learning throughout the Coding Bootcamp at the University of Denver. You'll begin at the homepage where you have links to different areas of my webpage. On the Contact page you will also be able to submit an inquiry which will be sent to my email address, and I'll be able to get back to you within 2 business days. 
 
-The colors of the page were decided based on the photo I used on the About Me page.
-
-Within the static footer, you'll find links to personal social media sites (all pages are currently under construction). Each icon will open a new tab that links to that specific site to be more user friendly. 
+I did not use any framework for styling. Enjoy!
 
 # Links
 
@@ -18,8 +16,6 @@ Within the static footer, you'll find links to personal social media sites (all 
 # Resources
 
 <ul>
-  <li>Boostrap</li>
-  <li>Cloudfare</li>
   <li>Google Fonts</li>
 </ul>
 
